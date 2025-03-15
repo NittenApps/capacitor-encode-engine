@@ -1,0 +1,16 @@
+name: capacitor-encode-engine
+id: ari:cloud:compass:6aeb0640-8a97-4ff6-ba69-f87115e438f9:component/6e29ecc4-adec-42cc-bf72-b8f4d539f852/156b4afc-8d62-4937-abfa-331269d5cb58
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/NittenApps/capacitor-encode-engine
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
