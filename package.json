@@ -1,6 +1,6 @@
 {
   "name": "@nittenapps/encode-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode and decode utilities",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -31,7 +31,7 @@
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
-    "verify:ios": "xcodebuild -scheme NittenAppsEncodeEngine -destination generic/platform=iOS",
+    "verify:ios": "xcodebuild -scheme NittenappsEncodeEngine -destination generic/platform=iOS",
     "verify:android": "cd android && ./gradlew clean build test && cd ..",
     "verify:web": "npm run build",
     "lint": "npm run eslint && npm run prettier -- --check && npm run swiftlint -- lint",
