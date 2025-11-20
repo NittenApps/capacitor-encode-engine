@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "NittenAppsEncodeEngine",
+    name: "NittenappsEncodeEngine",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "NittenAppsEncodeEngine",
+            name: "NittenappsEncodeEngine",
             targets: ["EncodeEnginePlugin"])
     ],
     dependencies: [
